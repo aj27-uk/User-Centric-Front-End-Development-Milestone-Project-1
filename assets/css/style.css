@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/*Callout*/
+.callout-container{
+    height:80vh;
+    background:url('../images/background.jpg') no-repeat center center fixed;
+    background-color:wheat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*margin-top:30px;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: groove;
+    border-width: 10px;
+    border-color: gray;
+
+    position: relative;
+}
+.opaque-overlay{
+    position:absolute;
+    top: o;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*Jumbotron component*/
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron-header{
+    font-weight:lighter;
+    margin-bottom: 30px;
+}
+h1.jumbotron-header{
+    color:white;
+}
+
