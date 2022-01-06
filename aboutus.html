@@ -45,11 +45,9 @@
                 <li class="nav-item dropdown mr-2 text-uppercase">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item text-uppercase" href="menu1.html">Burgers and Pizzas</a>
-                                <a class="dropdown-item text-uppercase" href="menu2.html">Taste of Asia</a>
-                                <a class="dropdown-item text-uppercase" href="menu3.html">Mediterranean platters</a>
-                                <a class="dropdown-item text-uppercase" href="menu4.html">Healthy Salad Corner</a>
-                                <a class="dropdown-item text-uppercase" href="menu5.html">Dessert Hub</a>
+                                <a class="dropdown-item text-uppercase" href="menupage.html">The Kitchen - Menu</a>
+                                <a class="dropdown-item text-uppercase" href="reservemeal.html">Reserve a Meal</a>
+                                <a class="dropdown-item text-uppercase" href="menudownload.html">Downlaod our Menu</a>
                             </div>
                 </li>
                 </li>
@@ -81,11 +79,13 @@
     <hr>
     <!--Section - Overview-->
     <section>
-        <div class="card bg-dark text-white container">
-            <img src="assets/images/3.png" class="card-img" alt="Photo designed by Anju from Canva">
-          </div>
-          <hr>
+        <div class="card bg container text-white border border-danger rounded-lg">
+            <div class="row">
+                <div class="col">
+                    <p class="mt-1 pt-5 "><em>"Mattam" means "a specific change" is a philosophical word in Malayalam (South Indian) language that wakes up all during an unprecedented time in the modern era. We at The Kitchen take that change that sits right at your heart is food and wellbeing. We have pushed ourselves to find a better and safe mode in all that we take pride in fulfilling everyone taste buds at your doorstep forever, making sure a fresh meal creates a unique way of eating, healthy lives to be more beneficial. During the pandemic in 2020, The Kitchen restaurant was aimed to establish an idea to serve the meal to your doorstep for needy customers. Today, our virtual platform is fully furnished all around Kent. We have an excellent professional background, Head chef, and a big team to run The Kitchen. At our food business, we wish to stick with high standards, fresh ingredients, cooked fresh, served on time, and caterer all dietary needs with unique flavors and spices to be the best on your dining table. Our menu features Asian favorites, Burgers and salads, Mediterrane meat platters, and a selection of mouth-watering desserts with an authentic touch. We are looking forward to establishing more new ventures virtually and physically in and around the UK in the coming years.</em></p>
+                </div>
     </section>
+    <hr>
 
     <section id="testimonial">
         <div class="container">
@@ -144,39 +144,49 @@
     </div>
     </section>
     <hr>
-    <!--Footer-->
+     <!--Footer-->
+    <!--Credit: Code from https://getbootstrap.com/docs/4.6/components/ and inspired by Code Insitute learning material -->
     <footer class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row row-col-2">
+            <div class="col">
                 <div class="card text-dark bg-light card border-dark mb-3 text-center" style="max-width: 30rem;">
                     <div class="card-body">
-                      <h5 class="card-title">How to get us:</h5>
+                      <h5 class="card-title">Contact Us</h5>
                       <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                         <span>Address</span>
                     </h6>
                       <p class="card-text">High Street<br>Tenterden<br>TN30 6HN <br>Kent</p>
-                      <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-phone" aria-hidden="true"></i>
+                      <hr>
+                      <div class="container">
+                        <div class="row row-col-2">
+                            <div class="col">
+                                <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                  <span>Phone</span>
+                                  </h6>
+                                  <p class="card-text">01580 123456</p>
+                              </h6>
+                            </div>
+                            <div class="col">
+                                <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                    <span>Email</span>
+                                </h6>
+                                  <a target="_blank" href="mailto:info@mykitchen.com" class="card-link">
+                                      <p class="card-text">info@mykitchen.com</p>
+                                  </a>
+                            </div>
+                        </div>
                       </div>
-                        <span>Phone</span>
-                        </h6>
-                        <p class="card-text">01580 123456</p>
-                    </h6>
-                      <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                        <span>Email</span>
-                    </h6>
-                      <a target="_blank" href="mailto:info@mykitchen.com" class="card-link">
-                          <p class="card-text">info@mykitchen.com</p>
-                      </a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col">
                 <div class="card text-dark bg-light card border-dark mb-3 text-center" style="max-width: 30rem;">
                     <div class="card-body">
                       <h5 class="card-title">News & Offers</h5>
                       <!-- Trigger the modal with a button -->
                                                                 
-                      <button type="button" class="btn btn-outline-danger btn-md text-dark border border-warning btn-center" data-toggle="modal" data-target="#myModal">Stay in the loop</button>
+                      <button type="button" class="btn btn-outline-danger btn-sm text-dark border border-warning btn-center" data-toggle="modal" data-target="#myModal">Stay in the loop</button>
                                                                                                     
                       <!-- Modal -->
                       <div class="modal fade" tabindex="-1" id="myModal" role="dialog">
@@ -204,11 +214,33 @@
                       </div>
                       </div> 
                       <hr>
-                      <h5 class="card-title">A fresh look from <strong class="text-uppercase">the kitchen</strong></h5>
-                      <img src="assets/images/thelogo.png" alt="The Kitchen Logo" style="width: 127px; border-style: groove;">
+                      <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                        <span>Opening Times</span>
+                    </h6>
+                      <h6 class="card-text">Monday - Thursday 5 PM to 10 PM<br>Friday - Sunday 12 PM to 10 PM</h6>
                       <hr>
-                  <h5 class="card-subtitle mb-2">Find us on:</h5>
-                  
+                    
+                      <div class="container">
+                        <div class="row row-col-2">
+                            <div class="col">
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <span>Download our Menu</span>
+                                    <a href="menudownload.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></button></a>
+                                </h6>
+                              </div>
+                          <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <span>Reserve a Meal</span>
+                                <a href="reservemeal.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i></button></a>
+                            </h6>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
                     <ul class="list-inline social-links text-center">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.tripadvisor.co.uk/">
@@ -241,14 +273,11 @@
                             </a>
                         </li>
                     </ul> 
-                    </div>
-                </div>
-            </div>
         </div>
-        <hr>
         <p class="text-center container-fluid">&copy; 2021 Copyright | Designed By AJdesigns</p>
-        <hr>
+        
 </footer>
+
     <!--BootstrapCDN JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

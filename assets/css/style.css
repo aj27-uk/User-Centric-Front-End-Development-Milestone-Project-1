@@ -26,6 +26,8 @@ body{
     border-color: gray;
 
     position: relative;
+
+    
 }
 .opaque-overlay{
     position:absolute;
@@ -35,17 +37,53 @@ body{
     width: 100%;
 }
 
+
+
 /*Jumbotron component*/
 
 .jumbotron{
     background-color: transparent;
+    -webkit-animation-name: hero-zoom;
+    animation-name: hero-zoom;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    
 }
+
+
+@-webkit-keyframes hero-zoom {
+    from {
+        -webkit-transform: scale(1);
+                transform: scale(1)
+    }
+    to {
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05)
+    }
+}
+
+@keyframes hero-zoom {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05)
+    }
+}
+
 .jumbotron-header{
     font-weight:lighter;
     margin-bottom: 30px;
 }
-h1.jumbotron-header{
-    color:white;
+
+h1.jumbotron-header {
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 /*Image Thumbnail*/
@@ -71,4 +109,115 @@ p{
     color: #1d2124!important;
     font-weight: bold;
 }
+
+.card-img{
+    background-color: transparent;
+}
+
+.card-text{
+    font-size: 12px;
+}
+/*Social media links*/
+
+
+.social-links li a i{
+    width: 40px;
+    height: 40px;
+    padding:15px 0;
+    border-style:groove;
+    border-radius: 20%;
+    border-color:cornflowerblue;
+    font-size: 16px;
+    line-height:7px;
+    text-align:center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background:lightgrey;
+}
+
+/*About - Overview*/
+.bg{
+    background-image: url(../images/3.png); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+
+   
+}
+
+/*About us - testimonial*/
+
+#testimonial{
+    height:800px;
+    background-image: url('../images/bacgrounddesign.png'); /*image designed in Canva*/
+    background-size: 100%;
+    background-position: center;
+    background-color: lightgray;
+  }
+  #left-about{
+    padding-top:30px;
+    width:33%;
+    float:left;
+  }
+  #right-about{
+    padding-top:30px;
+    width:33%;
+    float:right;
+  }
+  #testimonial h2{
+      color:purple;
+      font-weight: bold;
+ 
+  }
+ 
+  
+  .hr{
+    border-top:1px solid rgb(206, 64, 29);
+    width:100%;
+    margin:5px 0;
+  
+  }
+  .left-about-heading{
+    width:50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px;
+  
+  }
+  
+  .right-about-heading{
+    width:50%;
+    float: left;
+    line-height:20px;
+    clear: both;
+    margin-bottom:50px;
+  }
+  .right-about-heading h2{
+    text-align:right;
+  }
+  .right-about-heading p{
+    text-align:right;
+  }
+  #welcome{
+    margin:20px 0;
+    text-align:center;
+    font-size:280%;
+  }
+ 
+  
+  #t-h{
+    padding:30px;
+    margin-top:0;
+  }
+
+  #left-about, #right-about {
+    width:100%;
+    float: left;
+    padding:0;
+  }
 
