@@ -22,6 +22,7 @@
     <title>Home | The Kitchen</title>
 </head>
 <body>
+    <!--Credit W3 Schools and Bootstrap v4.6-->
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark font-weight-bolder">
         <!--Brand (The Logo)-->
         <a class="navbar-brand" href="home.html">
@@ -45,10 +46,9 @@
                 <li class="nav-item dropdown mr-2 text-uppercase">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item text-uppercase" href="#">Burgers and Pizzas</a>
-                                <a class="dropdown-item text-uppercase" href="#">Classic British Dishes</a>
-                                <a class="dropdown-item text-uppercase" href="#">Taste of Asia</a>
-                                <a class="dropdown-item text-uppercase" href="#">Mediterranean platters</a>
+                                <a class="dropdown-item text-uppercase" href="menupage.html">The Kitchen - Menu</a>
+                                <a class="dropdown-item text-uppercase" href="reservemeal.html">Reserve a Meal</a>
+                                <a class="dropdown-item text-uppercase" href="menudownload.html">Downlaod our Menu</a>
                             </div>
                 </li>
                 </li>
@@ -58,6 +58,9 @@
                 </li>
                 <li class="nav-item mr-2 text-uppercase">
                     <a class="nav-link mr-2" href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a class="nav-link mr-2 d-none d-lg-block" href="reservemeal.html"><button class="btn btn-outline-light btn-sm border border-light text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i> Reserve a Meal</button></a>
                 </li>
             </ul>
         </div>
@@ -72,7 +75,7 @@
                 <!--Jumbotron component-->
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">A Fresh meal to your doorstep from <br><strong>The Kitchen</strong></h1>
-                    <button class="btn btn-outline-success btn-lg border border-danger mb-5">Reserve a meal</button>   
+                    <a href="reservemeal.html"><button class="btn btn-outline-light btn-lg border border-success mb-5 text-uppercase">Reserve a meal</button></a>   
                 </section>
             </div>
         </div>
@@ -123,38 +126,49 @@
         </div>
     </section>
     <hr>
+    <!--Footer-->
+    <!--Credit: Code from https://getbootstrap.com/docs/4.6/components/ and inspired by Code Insitute learning material -->
     <footer class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row row-col-2">
+                <div class="col">
                     <div class="card text-dark bg-light card border-dark mb-3 text-center" style="max-width: 30rem;">
                         <div class="card-body">
-                          <h5 class="card-title">How to get us:</h5>
+                          <h5 class="card-title">Contact Us</h5>
                           <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                             <span>Address</span>
                         </h6>
                           <p class="card-text">High Street<br>Tenterden<br>TN30 6HN <br>Kent</p>
-                          <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-phone" aria-hidden="true"></i>
+                          <hr>
+                          <div class="container">
+                            <div class="row row-col-2">
+                                <div class="col">
+                                    <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-phone" aria-hidden="true"></i>
+                                    </div>
+                                      <span>Phone</span>
+                                      </h6>
+                                      <p class="card-text">01580 123456</p>
+                                  </h6>
+                                </div>
+                                <div class="col">
+                                    <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                        <span>Email</span>
+                                    </h6>
+                                      <a target="_blank" href="mailto:info@mykitchen.com" class="card-link">
+                                          <p class="card-text">info@mykitchen.com</p>
+                                      </a>
+                                </div>
+                            </div>
                           </div>
-                            <span>Phone</span>
-                            </h6>
-                            <p class="card-text">01580 123456</p>
-                        </h6>
-                          <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                            <span>Email</span>
-                        </h6>
-                          <a target="_blank" href="mailto:info@mykitchen.com" class="card-link">
-                              <p class="card-text">info@mykitchen.com</p>
-                          </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col">
                     <div class="card text-dark bg-light card border-dark mb-3 text-center" style="max-width: 30rem;">
                         <div class="card-body">
                           <h5 class="card-title">News & Offers</h5>
                           <!-- Trigger the modal with a button -->
                                                                     
-                          <button type="button" class="btn btn-outline-danger btn-md text-dark border border-warning btn-center" data-toggle="modal" data-target="#myModal">Stay in the loop</button>
+                          <button type="button" class="btn btn-outline-danger btn-sm text-dark border border-warning btn-center" data-toggle="modal" data-target="#myModal">Stay in the loop</button>
                                                                                                         
                           <!-- Modal -->
                           <div class="modal fade" tabindex="-1" id="myModal" role="dialog">
@@ -182,11 +196,33 @@
                           </div>
                           </div> 
                           <hr>
-                          <h5 class="card-title">A fresh look from <strong class="text-uppercase">the kitchen</strong></h5>
-                          <img src="assets/images/thelogo.png" alt="The Kitchen Logo" style="width: 127px; border-style: groove;">
+                          <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                            <span>Opening Times</span>
+                        </h6>
+                          <h6 class="card-text">Monday - Thursday 5 PM to 10 PM<br>Friday - Sunday 12 PM to 10 PM</h6>
                           <hr>
-                      <h5 class="card-subtitle mb-2">Find us on:</h5>
-                      
+                        
+                          <div class="container">
+                            <div class="row row-col-2">
+                                <div class="col">
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        <span>Download our Menu</span>
+                                        <a href="menudownload.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></button></a>
+                                    </h6>
+                                  </div>
+                              <div class="col">
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <span>Reserve a Meal</span>
+                                    <a href="reservemeal.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i></button></a>
+                                </h6>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
                         <ul class="list-inline social-links text-center">
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://www.tripadvisor.co.uk/">
@@ -219,13 +255,9 @@
                                 </a>
                             </li>
                         </ul> 
-                        </div>
-                    </div>
-                </div>
             </div>
-            <hr>
             <p class="text-center container-fluid">&copy; 2021 Copyright | Designed By AJdesigns</p>
-            <hr>
+            
     </footer>
 
     <!--BootstrapCDN JavaScript-->
