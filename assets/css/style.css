@@ -1,7 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-}
 body{
     font-family: 'Cormorant Garamond', serif;
 }
@@ -31,7 +27,7 @@ body{
 }
 .opaque-overlay{
     position:absolute;
-    top: o;
+    top: 0;
     left: 0;
     height: 100%;
     width: 100%;
@@ -144,20 +140,18 @@ p{
 .bg{
     background-image: url(../images/3.png); 
     background-size: 200%;
-    background-repeat: no-repeat;
-
-   
+    
 }
 
 /*About us - testimonial*/
 
 #testimonial{
-    height:800px;
+    height:100%;
     background-image: url('../images/bacgrounddesign.png'); /*image designed in Canva*/
-    background-size: 100%;
     background-position: center;
     background-color: lightgray;
   }
+ 
   #left-about{
     padding-top:30px;
     width:33%;
