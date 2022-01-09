@@ -1,6 +1,6 @@
 <!--DOCTYPE declaration-->
 <!DOCTYPE html>
-<!--THe lang attribute-->
+<!--The lang attribute-->
 <html lang="en-US">
 <head>
     <!--Required metatags-->
@@ -45,24 +45,25 @@
                 <li class="nav-item dropdown mr-2 text-uppercase">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item text-uppercase" href="menupage.html">The Kitchen - Menu</a>
+                                <a class="dropdown-item text-uppercase" href="menupage.html">The Kitchen's Menu</a>
                                 <a class="dropdown-item text-uppercase" href="reservemeal.html">Reserve a Meal</a>
-                                <a class="dropdown-item text-uppercase" href="menudownload.html">Downlaod our Menu</a>
+                                <a class="dropdown-item text-uppercase" href="#">Downlaod our Menu</a>
                             </div>
-                </li>
                 </li>
                 <li class="nav-item mr-2 text-uppercase">
                     <a class="nav-link mr-2" href="myaccount.html">My Account</a>
                 </li>
-                </li>
                 <li class="nav-item mr-2 text-uppercase">
                     <a class="nav-link mr-2" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item mr-2 text-uppercase">
+                    <a class="nav-link mr-2 d-none d-lg-block btn btn-sm border border-light" href="reservemeal.html"><i class="fa fa-cutlery" aria-hidden="true"></i> Reserve a Meal</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!--Callout-->
+    <!--Callout credit: inspired from Code Institue and made some changes from my side-->
     <div class="container-fluid callout-container">
         <!--Transparent jumbotron - opaque overlay -->
         <div class="opaque-overlay">&nbsp;</div>
@@ -70,26 +71,31 @@
             <div class="col-12">
                 <!--Jumbotron component-->
                 <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">The Kitchen</h1>
-                    <h2 class="jumbotron-header">About Us</h2>
+                    <h1 class="jumbotron-header">About Us</h1>
                 </section>
             </div>
         </div>
     </div>
     <hr>
-    <!--Section - Overview-->
+
+    <!--Section - Overview -Bootstrap card component-->
     <section>
+        <h2 class="text-center text-uppercase">The Kitchen</h2>
         <div class="card bg container text-white border border-danger rounded-lg">
             <div class="row">
                 <div class="col">
-                    <p class="mt-1 pt-5 "><em>"Mattam" means "a specific change" is a philosophical word in Malayalam (South Indian) language that wakes up all during an unprecedented time in the modern era. We at The Kitchen take that change that sits right at your heart is food and wellbeing. We have pushed ourselves to find a better and safe mode in all that we take pride in fulfilling everyone taste buds at your doorstep forever, making sure a fresh meal creates a unique way of eating, healthy lives to be more beneficial. During the pandemic in 2020, The Kitchen restaurant was aimed to establish an idea to serve the meal to your doorstep for needy customers. Today, our virtual platform is fully furnished all around Kent. We have an excellent professional background, Head chef, and a big team to run The Kitchen. At our food business, we wish to stick with high standards, fresh ingredients, cooked fresh, served on time, and caterer all dietary needs with unique flavors and spices to be the best on your dining table. Our menu features Asian favorites, Burgers and salads, Mediterrane meat platters, and a selection of mouth-watering desserts with an authentic touch. We are looking forward to establishing more new ventures virtually and physically in and around the UK in the coming years.</em></p>
+                    <p class="mr-auto"><em>"Mattam" means "a specific change" is a philosophical word in Malayalam (South Indian) language that wakes up all during an unprecedented time in the modern era. We at The Kitchen take that change that sits right at your heart is food and wellbeing. We have pushed ourselves to find a better and safe mode in all that we take pride in fulfilling everyone taste buds at your doorstep forever, making sure a fresh meal creates a unique way of eating, healthy lives to be more beneficial. During the pandemic in 2020, The Kitchen restaurant was aimed to establish an idea to serve the meal to your doorstep for needy customers. Today, our virtual platform is fully furnished all around Kent. We have an excellent professional background, Head chef, and a big team to run The Kitchen. At our food business, we wish to stick with high standards, fresh ingredients, cooked fresh, served on time, and caterer all dietary needs with unique flavors and spices to be the best on your dining table. Our menu features Asian favorites, Burgers and salads, Mediterrane meat platters, and a selection of mouth-watering desserts with an authentic touch. We are looking forward to establishing more new ventures virtually and physically in and around the UK in the coming years.</em></p>
                 </div>
+            </div>
+            </div>
     </section>
     <hr>
+    <!--Section Testimonials-->
+    <!--Inspired from Code Institute learning material and made some changes from my side-->
 
     <section id="testimonial">
         <div class="container">
-        <h2 id="t-h">Testimonials</h2>
+        <h2 class="text-uppercase text-center" id="t-h">Testimonials</h2>
         <div id="left-about">
         <div class="left-about-heading">
           <h2>Samm Lockwood</h2>
@@ -119,10 +125,9 @@
         </div>
         </div>
     </div>
-      </section>
-    <!--Section-timing -table-->
-    <section>
-        <div class="table-responsive-sm">
+      
+    <!--Section-timing Bootstrap - table-->
+     <div class="table-responsive-sm">
         <table class="table table-lg">
             <thead class="text-center">
               <tr class="table-danger text-center">
@@ -142,35 +147,35 @@
             </tbody>
           </table>
     </div>
-    </section>
+</section>
+    
     <hr>
      <!--Footer-->
     <!--Credit: Code from https://getbootstrap.com/docs/4.6/components/ and inspired by Code Insitute learning material -->
-    <footer class="container">
+    <footer>
+        <div class="container">
         <div class="row row-col-2">
             <div class="col">
-                <div class="card text-dark bg-light card border-dark mb-3 text-center" style="max-width: 30rem;">
+                <div class="card text-dark bg-light border-dark mb-3 text-center" style="max-width: 30rem;">
                     <div class="card-body">
                       <h5 class="card-title">Contact Us</h5>
-                      <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                        <span>Address</span>
-                    </h6>
+                      <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i>  Address
+                        
+                    </h6></div>
                       <p class="card-text">High Street<br>Tenterden<br>TN30 6HN <br>Kent</p>
                       <hr>
                       <div class="container">
                         <div class="row row-col-2">
                             <div class="col">
-                                <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                  <span>Phone</span>
-                                  </h6>
+                                <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-phone" aria-hidden="true"></i>  Phone
+                                  
+                                  </h6></div>
                                   <p class="card-text">01580 123456</p>
-                              </h6>
                             </div>
                             <div class="col">
-                                <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                                    <span>Email</span>
-                                </h6>
+                                <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email
+                                    
+                                </h6></div>
                                   <a target="_blank" href="mailto:info@mykitchen.com" class="card-link">
                                       <p class="card-text">info@mykitchen.com</p>
                                   </a>
@@ -181,7 +186,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-dark bg-light card border-dark mb-3 text-center" style="max-width: 30rem;">
+                <div class="card text-dark bg-light border-dark mb-3 text-center" style="max-width: 30rem;">
                     <div class="card-body">
                       <h5 class="card-title">News & Offers</h5>
                       <!-- Trigger the modal with a button -->
@@ -195,7 +200,10 @@
                       <!-- Modal content-->
                           <div class="modal-content">
                           <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <button type="button" class="close" aria-label="Close">
+                                <span aria-hidden="true" data-dismiss="modal">&times;</span>
+                              </button>
+                             
                               <h4 class="modal-title">Sign up to our exclusive mailing list</h4>
                           </div>
                           <div class="modal-body">
@@ -214,31 +222,29 @@
                       </div>
                       </div> 
                       <hr>
-                      <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-clock-o" aria-hidden="true"></i></div>
-                        <span>Opening Times</span>
-                    </h6>
+                      <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> Opening Times</h6></div>
                       <h6 class="card-text">Monday - Thursday 5 PM to 10 PM<br>Friday - Sunday 12 PM to 10 PM</h6>
                       <hr>
                     
                       <div class="container">
                         <div class="row row-col-2">
                             <div class="col">
-                                <h6 class="card-subtitle mb-2 text-muted">
-                                    <span>Download our Menu</span>
-                                    <a href="menudownload.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></button></a>
-                                </h6>
+                                
+                                    <a href="#" class="btn btn-outline-success btn-sm border border-danger text-uppercase"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>  Menu</a>
+                                
                               </div>
                           <div class="col">
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <span>Reserve a Meal</span>
-                                <a href="reservemeal.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i></button></a>
-                            </h6>
+                            
+                                <a href="reservemeal.html" class="btn btn-outline-success btn-sm border border-danger text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i>  Reserve</a>
+                            
                           </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+        <!--social media links-->
 
         <div class="container">
                     <ul class="list-inline social-links text-center">
@@ -275,8 +281,9 @@
                     </ul> 
         </div>
         <p class="text-center container-fluid">&copy; 2021 Copyright | Designed By AJdesigns</p>
-        
+        </div>
 </footer>
+
 
     <!--BootstrapCDN JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

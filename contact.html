@@ -45,18 +45,19 @@
                 <li class="nav-item dropdown mr-2 text-uppercase">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item text-uppercase" href="menupage.html">The Kitchen - Menu</a>
+                                <a class="dropdown-item text-uppercase" href="menupage.html">The Kitchen's Menu</a>
                                 <a class="dropdown-item text-uppercase" href="reservemeal.html">Reserve a Meal</a>
                                 <a class="dropdown-item text-uppercase" href="menudownload.html">Downlaod our Menu</a>
                             </div>
                 </li>
-                </li>
                 <li class="nav-item mr-2 text-uppercase">
                     <a class="nav-link mr-2" href="#">My Account</a>
                 </li>
-                </li>
                 <li class="nav-item active mr-2 text-uppercase">
                     <a class="nav-link mr-2" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item mr-2 text-uppercase">
+                    <a class="nav-link mr-2 d-none d-lg-block btn btn-sm border border-light" href="reservemeal.html"><i class="fa fa-cutlery" aria-hidden="true"></i> Reserve a Meal</a>
                 </li>
             </ul>
         </div>
@@ -84,25 +85,22 @@
         <div class="card text-dark bg-light border-dark mb-3 ml-5 text-center" style="max-width: 60rem;">
             <div class="card-body">
               <h5 class="card-title">Contact Us</h5>
-              <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                <span>Address</span>
-            </h6>
+              <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> Address
+            </h6></div>
               <p class="card-text">High Street<br>Tenterden<br>TN30 6HN <br>Kent</p>
               <hr>
               <div class="container">
                 <div class="row row-col-2">
                     <div class="col">
-                        <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-phone" aria-hidden="true"></i>
-                        </div>
-                          <span>Phone</span>
-                          </h6>
+                        <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-phone" aria-hidden="true"></i>  Phone
+                        
+                          </h6></div>
                           <p class="card-text">01580 123456</p>
-                      </h6>
                     </div>
                     <div class="col">
-                        <h6 class="card-subtitle mb-2 text-muted"><div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                            <span>Email</span>
-                        </h6>
+                        <div><h6 class="card-subtitle mb-2 text-muted"><i class="fa fa-envelope-o" aria-hidden="true"></i>  Email
+                            
+                        </h6></div>
                           <a target="_blank" href="mailto:info@mykitchen.com" class="card-link">
                               <p class="card-text">info@mykitchen.com</p>
                           </a>
@@ -116,26 +114,26 @@
     </div>
         </section>
         <hr>
-        <!--Form for Enquiry-->
+        <!--Form for Enquiry (credit: Bootstrap 4 and W3Schools websites)-->
         <section class="container">
             <h2 class="text-center text-dark text-uppercase">Reach out to us</h2>
             <form>
                 <div class="form-group row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">First Name</label>
+                    <label for="colFormFNLg" class="col-sm-2 col-form-label col-form-label-lg">First Name</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="First Name">
+                        <input type="text" class="form-control form-control-lg" id="colFormFNLg" placeholder="First Name">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Last Name</label>
+                    <label for="colFormLNLg" class="col-sm-2 col-form-label col-form-label-lg">Last Name</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Last Name">
+                        <input type="text" class="form-control form-control-lg" id="colFormLNLg" placeholder="Last Name">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                    <label for="colFormLELg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Email">
+                        <input type="email" class="form-control form-control-lg" id="colFormLELg" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -153,7 +151,7 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="FormControlTextarea" class="col-sm-2 col-form-label col-form-label-lg"><p>Please provide more details</p></label>
+                    <label for="FormControlTextarea" class="col-sm-2 col-form-label col-form-label-lg">Please provide more details</label>
                     <div class="col-sm-10">
                         <textarea class="form-control form-control-lg" id="FormControlTextarea" rows="5" placeholder="Your message"></textarea>
                     </div>
@@ -161,7 +159,7 @@
                 <div class="text-center">
                     <!-- Send button modal -->
                     <button type="button" class="btn btn-outline-success btn-lg text-uppercase text-center" data-toggle="modal" data-target=".bd-modal-lg">Send</button>
-                    <div class="modal fade bd-modal-lg bg-dark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal fade bd-modal-lg bg-dark" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 Thank you, we will be back shortly.
@@ -185,21 +183,19 @@
                             <div class="container">
                                 <div class="row row-col-2">
                                     <div class="col">
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <span>Download our Menu</span>
-                                            <a href="menudownload.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></button></a>
+                                        <h6 class="card-subtitle mb-2 text-muted"><a href="#" class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-arrow-circle-o-down" aria-hidden="true">  Menu</i></a>
                                         </h6>
                                       </div>
                                   <div class="col">
                                     <h6 class="card-subtitle mb-2 text-muted">
-                                        <span>Reserve a Meal</span>
-                                        <a href="reservemeal.html"><button class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i></button></a>
+                                        <a href="reservemeal.html" class="btn btn-outline-success btn-md border border-danger text-uppercase"><i class="fa fa-cutlery" aria-hidden="true"></i>  Reserve</a>
                                     </h6>
                                   </div>
                                 </div>
                             </div>
                             <hr>
                             <h5 class="card-subtitle mb-2">Find us on:</h5>
+                            <!--Social media links-->
                             <ul class="list-inline social-links text-center">
                                 <li class="list-inline-item">
                                     <a target="_blank" href="https://www.tripadvisor.co.uk/">
