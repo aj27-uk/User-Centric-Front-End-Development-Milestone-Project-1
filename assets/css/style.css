@@ -1,8 +1,11 @@
 body{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', serif; /*copied from Google font*/
+}
+.bg-dark{
+    background-color:#070304!important;
 }
 
-/*Callout*/
+/*Callout inspired from Code Institue and made some changes from my side*/
 
 .callout-container{
     height:80vh;
@@ -17,13 +20,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: groove;
-    border-width: 10px;
-    border-color: gray;
 
-    position: relative;
-
-    
+    position: relative;  
 }
 .opaque-overlay{
     position:absolute;
@@ -33,9 +31,7 @@ body{
     width: 100%;
 }
 
-
-
-/*Jumbotron component*/
+/*Jumbotron component inspired from Code Institue and made some changes from my side*/
 
 .jumbotron{
     background-color: transparent;
@@ -78,8 +74,8 @@ body{
 
 h1.jumbotron-header {
     color: white;
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-top: 60px;
+    padding-top: 70px;
 }
 
 /*Image Thumbnail*/
@@ -113,7 +109,7 @@ p{
 .card-text{
     font-size: 12px;
 }
-/*Social media links*/
+/*Social media links inspired from Code Institue and made some changes from my side*/
 
 
 .social-links li a i{
@@ -138,7 +134,7 @@ p{
 
 /*About - Overview*/
 .bg{
-    background-image: url(../images/3.png); 
+    background-image: url(../images/3.png); /*image created through Canva*/
     background-size: 200%;
     
 }
@@ -151,7 +147,7 @@ p{
     background-position: center;
     background-color: lightgray;
   }
- 
+ /* credit: inspired from Code Institue and made some changes from my side*/
   #left-about{
     padding-top:30px;
     width:33%;
