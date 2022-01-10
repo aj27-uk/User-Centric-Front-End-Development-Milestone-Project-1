@@ -6,7 +6,9 @@ View the live website. [The Kitchen](https://aj27-uk.github.io/User-Centric-Fron
 The project is based on a static front-end using HTML, CSS and Bootstrap technologies and implemented based on user experience design, accessibility and responsiveness. I have designed this website on a bespoke basis for a restaurant called "The Kitchen" situated in Kent. it is a virtual restaurant where people can reserve their meal and deliver it to their doorstep. Their service will promote in this unprecedented time and stand unique. 
 <hr>
 
-![Responsive sites](/images/responsive.png)
+<img src="assets/images/responsive .png" alt="responsive design image">
+
+<hr>
 
 
 <h2 align="center">Contents</h2>
@@ -56,11 +58,11 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 * As an owner, I want the concept is easy to use and clear.
 * As an owner, I want the website to work on all devices.
 * As an owner, I want to update our menu and other services so that I can attract new or existing customers.
-* As an owner, I want a downloadable menu for the customer so that they can spend less time on the internet to find their meal. 
+* As an owner, I want a downloadable menu for the customer to spend less time on the internet to find their meal. 
 * As an owner, I want to make sure there is a reservation for a meal online to avoid unnecessary distractions during busy times. 
 * As an owner, I want the customers to need contact details to connect with the team.  
 * As an owner, I want to sign up to the news and offers so that I can email major updates to the new or existing customers.
-* As an owner, I want to specify the opening time of the restaurant.
+* As an owner, I want to specify the restaurant's opening time.
 * As an owner, I want the customers can communicate from the site directly to the restaurant team by their email.
 * As an owner, I want the customers to need to get a contact form if they have any queries. 
 * As an owner, I want the new customer needs to communicate or reserve a meal by signing up section with our website.
@@ -76,3 +78,45 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 * As an existing user, I want to navigate their social networks in another tab so that I can get their updates.
 
 <h2>Sitemap</h2>
+<hr>
+At this first stage, I think about what information, pages, features to determine the business goals and user needs and align all the features with the strategy. I wanted a simple design so that the potential customers would not feel overwhelmed by the pages. 
+The Kitchen website is a static front end project written in HTML and CSS programming language with main five pages. The top five pages such as:
+
+* HOME
+* ABOUT US
+* MENU
+* MY ACCOUNT 
+* CONTACT
+
+The menu page has been divided into three pages as
+
+* THE KITCHEN'S MENU
+* RESERVE A MEAL 
+* DOWNLOAD OUR MENU 
+
+<img src="assets/images/Sitemap.png" alt="Sitemap">
+
+<hr>
+<h2>Wireframe</h2>
+<hr>
+
+* HOME 
+   - Upon entering the home page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. Underneath, there is an image with some text and a "Reserve a meal" call to action button. The user can click on the call to action button or scroll down to find an overview of the restaurant's head chef, a slideshow with images and Contact details, and other helpful links to know more about the restaurant.
+
+   [Homepage-Wireframe](assets/images/wireframe-homepage.png)
+
+
+
+* ABOUT US
+   - Upon entering the about us page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. There is a callout image with the heading "About Us" when scrolling down a more in-depth explanation of the restaurant, testimonials, opening times, contact details and other helpful links to know more about the restaurant.
+
+[Wireframe-Homepage](../wireframes/wireframe-homepage.png)
+   
+* MENU
+    - Upon entering the menu page, the page has been designed with a drop-down menu system with the other three pages: "The Kitchen's menu, Reserve a meal, Download our menu". Different contents separate each page. When entering the menu page of The Kitchen, users are welcomed with a clear and easy-to-read navigation bar to go to the page of their choice. Like the other pages,  a callout image is titled "Menu". As the user scrolls down, potential customers can view a more in-depth description of the current restaurant menu and the prices. Adopting a translucent strategy in this regard will increase customer faithfulness. The footer area contains contact details and other helpful links to learn more about the restaurant when scrolling down. When entering the reserve a meal page, users are held with a clear and easy-to-read navigation bar to go to the page of their preference. Like the other pages,  a callout image is titled with some text. As the user scrolls down, there is a reservation form for filling to book a meal. The footer area contains contact details and other helpful links. The third page of download our menu allows users to download the menu on their device to spend less time on the internet to find their meal.
+
+* MY ACCOUNT 
+    - TLike other pages, the user will welcome a navigation bar to navigate the pages upon entering the account page. Below that, there is a callout image with a title. When the user scrolls down, the user can find a sign in and sign up form for entering the website as a new customer or existing customer. The footer part of the page gives details of contact info, other essential links like social media links, and the callout button of sign up, reserve a menu and the download menu.
+
+* CONTACT
+    - Upon entering the contact page, the users are welcomed with a clear and readily readable navigation bar to proceed to the user preference page. Underneath, there is a callout image with a heading. The contact page gives the contact information such as an address, phone number and email address. When you scroll down, there is a contact form if the user has queries; they can communicate with the restaurant team. A footer with logo, call out button of reserve a meal and download menu and social networks links. 
