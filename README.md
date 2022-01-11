@@ -14,10 +14,6 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 <h2 align="center">Contents</h2>
 <table align="center">
 <tr>
-<td></td>
-<td>User Experience Design</td>
-</tr>
-<tr>
 <td>1</td>
 <td>User Stories</td>
 </tr>
@@ -35,15 +31,27 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 </tr>
 <tr>
 <td>5</td>
-<td>Testing</td>
+<td>Features</td>
 </tr>
 <tr>
 <td>6</td>
-<td>Reference</td>
+<td>Technolgies</td>
 </tr>
 <tr>
 <td>7</td>
-<td>Acknowledgment</td>
+<td>Testing</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Deployment</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Credits</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Acknowledgements</td>
 </tr>
 </table>
 <hr>
@@ -115,32 +123,53 @@ The menu page has been divided into three pages as
 
     Upon entering the home page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. Underneath, there is an image with some text and a "Reserve a meal" call to action button. The user can click on the call to action button or scroll down to find an overview of the restaurant's head chef, a slideshow with images and Contact details, and other helpful links to know more about the restaurant.
 
-[Homepage-Wireframe](assets/images/wireframe-homepage.png)
+    [Homepage-Wireframe](assets/images/wireframe-homepage.png)
 
 * ABOUT US
 
     Upon entering the about us page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. There is a callout image with the heading "About Us" when scrolling down a more in-depth explanation of the restaurant, testimonials, opening times, contact details and other helpful links to know more about the restaurant.
    
-[AboutUs-Wireframe](assets/images/aboutus-wireframe.png)
+    [AboutUs-Wireframe](assets/images/aboutus-wireframe.png)
  
 * MENU
 
    Upon entering the menu page, the page has been designed with a drop-down menu system with the other three pages: "The Kitchen's menu, Reserve a meal, Download our menu". Different contents separate each page. When entering the menu page of The Kitchen, users are welcomed with a clear and easy-to-read navigation bar to go to the page of their choice. Like the other pages,  a callout image is titled "Menu". As the user scrolls down, potential customers can view a more in-depth description of the current restaurant menu and the prices. Adopting a translucent strategy in this regard will increase customer faithfulness. The footer area contains contact details and other helpful links to learn more about the restaurant when scrolling down. 
 
-[Menupage-Wireframe](assets/images/)
+   [Menupage-Wireframe](assets/images/)
+   
+   When entering the reserve a meal page, users are held with a clear and easy-to-read navigation bar to go to the page of their preference. Like the other pages,  a callout image is titled with some text. As the user scrolls down, there is a reservation form for filling to book a meal. The footer area contains contact details and other helpful links. The third page of download our menu allows users to download the menu on their device to spend less time on the internet to find their meal.
 
-    When entering the reserve a meal page, users are held with a clear and easy-to-read navigation bar to go to the page of their preference. Like the other pages,  a callout image is titled with some text. As the user scrolls down, there is a reservation form for filling to book a meal. The footer area contains contact details and other helpful links. The third page of download our menu allows users to download the menu on their device to spend less time on the internet to find their meal.
-  
-[Reservationpage-Wireframe](assets/images/reservationpage-wireframe.png)
+   [Reservationpage-Wireframe](assets/images/reservationpage-wireframe.png)
 
 * MY ACCOUNT
 
     Like other pages, the user will welcome a navigation bar to navigate the pages upon entering the account page. Below that, there is a callout image with a title. When the user scrolls down, the user can find a sign in and sign up form for entering the website as a new customer or existing customer. The footer part of the page gives details of contact info, other essential links like social media links, and the callout button of sign up, reserve a menu and the download menu.
 
-[MyAccount-Wireframe](assets/images/myaccount-wireframe.png)
+    [MyAccount-Wireframe](assets/images/myaccount-wireframe.png)
 
 * CONTACT
     
     Upon entering the contact page, the users are welcomed with a clear and readily readable navigation bar to proceed to the user preference page. Underneath, there is a callout image with a heading. The contact page gives the contact information such as an address, phone number and email address. When you scroll down, there is a contact form if the user has queries; they can communicate with the restaurant team. A footer with logo, call out button of reserve a meal and download menu and social networks links. 
 
-[Contactpage-Wireframe](assets/images/contactpage-wireframe.png)
+    [Contactpage-Wireframe](assets/images/contactpage-wireframe.png)
+
+<hr>
+<h2 align="center">Design</h2>
+
+* Colour Scheme
+
+The sensory strategy section of a website is the design of how users see and experience it. I wanted the design to be clean and easy for everyone to access; the colours should not be too dark and give it purity, joy, and creativity. Most of the places I use here are two colours, black and white, which are often associated with luxury and elite trademarks. It is not only used for elegance, sophistication and style. These colours like to communicate with people and target audiences, aiming to gain more traction.
+Also, throughout the project, I have used bootstrap colour utilities that support me with styling links and buttons with hover states. I make sure all the contents of the text are visible.
+
+* Typography
+
+Throughout the web, I have used the Cormorant Garamond font family. If the font is not adequately imported to the site, Serif is used as the fallback font for some reason. 
+
+* Imagery
+
+I have used essential images throughout the site to catch the user's attention. Some are created on Canvas, and some are downloaded from Pexels.
+
+* Styling Components
+
+Before starting the development, I listed some styling ideas that encouraged me to simplify things, and I thought they would be helpful for the website. So the features are controlled and straightforward. Therefore, throughout the site, all content was made responsive. It was very successful; I used bootstrap elements such as navigation navbar, dropdown, jumbotron, carousel, cards, forms, buttons, and alerts elsewhere throughout the page.
+<hr>
