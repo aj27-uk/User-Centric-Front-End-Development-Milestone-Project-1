@@ -1,7 +1,7 @@
 <h1 align="center">User Centric Front-end Development - First Milestone Project</h1>
 <h2 align="center">The Kitchen</h2>
 
-View the live website. [The Kitchen](https://aj27-uk.github.io/User-Centric-Front-End-Development-Milestone-Project-1/home.html)
+View the live website.  [The Kitchen](https://aj27-uk.github.io/User-Centric-Front-End-Development-Milestone-Project-1/home.html)
 <hr>
 The project is based on a static front-end using HTML, CSS and Bootstrap technologies and implemented based on user experience design, accessibility and responsiveness. I have designed this website on a bespoke basis for a restaurant called "The Kitchen" situated in Kent. it is a virtual restaurant where people can reserve their meal and deliver it to their doorstep. Their service will promote in this unprecedented time and stand unique. 
 <hr>
@@ -30,13 +30,24 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 <td>Wireframe</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>4</td>
+<td>Design</td>
 </tr>
-
+<tr>
+<td>5</td>
+<td>Testing</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Reference</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Acknowledgment</td>
+</tr>
 </table>
 <hr>
-<h2>User Stories</h2>
+<h2 align ="center">User Stories</h2>
 <hr>
 <h3>First time User</h3>
 
@@ -76,8 +87,8 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 * As an existing user, I can look at their menu to choose a meal.
 * As an existing user, I want to contact their team if I have any queries.
 * As an existing user, I want to navigate their social networks in another tab so that I can get their updates.
-
-<h2>Sitemap</h2>
+<hr>
+<h2 align="center">Sitemap</h2>
 <hr>
 At this first stage, I think about what information, pages, features to determine the business goals and user needs and align all the features with the strategy. I wanted a simple design so that the potential customers would not feel overwhelmed by the pages. 
 The Kitchen website is a static front end project written in HTML and CSS programming language with main five pages. The top five pages such as:
@@ -97,26 +108,39 @@ The menu page has been divided into three pages as
 <img src="assets/images/Sitemap.png" alt="Sitemap">
 
 <hr>
-<h2>Wireframe</h2>
+<h2 align="center">Wireframe</h2>
 <hr>
 
 * HOME 
-   - Upon entering the home page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. Underneath, there is an image with some text and a "Reserve a meal" call to action button. The user can click on the call to action button or scroll down to find an overview of the restaurant's head chef, a slideshow with images and Contact details, and other helpful links to know more about the restaurant.
 
-   [Homepage-Wireframe](assets/images/wireframe-homepage.png)
+    Upon entering the home page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. Underneath, there is an image with some text and a "Reserve a meal" call to action button. The user can click on the call to action button or scroll down to find an overview of the restaurant's head chef, a slideshow with images and Contact details, and other helpful links to know more about the restaurant.
 
-
+[Homepage-Wireframe](assets/images/wireframe-homepage.png)
 
 * ABOUT US
-   - Upon entering the about us page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. There is a callout image with the heading "About Us" when scrolling down a more in-depth explanation of the restaurant, testimonials, opening times, contact details and other helpful links to know more about the restaurant.
 
-[Wireframe-Homepage](../wireframes/wireframe-homepage.png)
+    Upon entering the about us page, the users are greeted with a clear and easily readable navigation bar to go to the page of the user choice. There is a callout image with the heading "About Us" when scrolling down a more in-depth explanation of the restaurant, testimonials, opening times, contact details and other helpful links to know more about the restaurant.
    
+[AboutUs-Wireframe](assets/images/aboutus-wireframe.png)
+ 
 * MENU
-    - Upon entering the menu page, the page has been designed with a drop-down menu system with the other three pages: "The Kitchen's menu, Reserve a meal, Download our menu". Different contents separate each page. When entering the menu page of The Kitchen, users are welcomed with a clear and easy-to-read navigation bar to go to the page of their choice. Like the other pages,  a callout image is titled "Menu". As the user scrolls down, potential customers can view a more in-depth description of the current restaurant menu and the prices. Adopting a translucent strategy in this regard will increase customer faithfulness. The footer area contains contact details and other helpful links to learn more about the restaurant when scrolling down. When entering the reserve a meal page, users are held with a clear and easy-to-read navigation bar to go to the page of their preference. Like the other pages,  a callout image is titled with some text. As the user scrolls down, there is a reservation form for filling to book a meal. The footer area contains contact details and other helpful links. The third page of download our menu allows users to download the menu on their device to spend less time on the internet to find their meal.
 
-* MY ACCOUNT 
-    - TLike other pages, the user will welcome a navigation bar to navigate the pages upon entering the account page. Below that, there is a callout image with a title. When the user scrolls down, the user can find a sign in and sign up form for entering the website as a new customer or existing customer. The footer part of the page gives details of contact info, other essential links like social media links, and the callout button of sign up, reserve a menu and the download menu.
+   Upon entering the menu page, the page has been designed with a drop-down menu system with the other three pages: "The Kitchen's menu, Reserve a meal, Download our menu". Different contents separate each page. When entering the menu page of The Kitchen, users are welcomed with a clear and easy-to-read navigation bar to go to the page of their choice. Like the other pages,  a callout image is titled "Menu". As the user scrolls down, potential customers can view a more in-depth description of the current restaurant menu and the prices. Adopting a translucent strategy in this regard will increase customer faithfulness. The footer area contains contact details and other helpful links to learn more about the restaurant when scrolling down. 
+
+[Menupage-Wireframe](assets/images/)
+
+    When entering the reserve a meal page, users are held with a clear and easy-to-read navigation bar to go to the page of their preference. Like the other pages,  a callout image is titled with some text. As the user scrolls down, there is a reservation form for filling to book a meal. The footer area contains contact details and other helpful links. The third page of download our menu allows users to download the menu on their device to spend less time on the internet to find their meal.
+  
+[Reservationpage-Wireframe](assets/images/reservationpage-wireframe.png)
+
+* MY ACCOUNT
+
+    Like other pages, the user will welcome a navigation bar to navigate the pages upon entering the account page. Below that, there is a callout image with a title. When the user scrolls down, the user can find a sign in and sign up form for entering the website as a new customer or existing customer. The footer part of the page gives details of contact info, other essential links like social media links, and the callout button of sign up, reserve a menu and the download menu.
+
+[MyAccount-Wireframe](assets/images/myaccount-wireframe.png)
 
 * CONTACT
-    - Upon entering the contact page, the users are welcomed with a clear and readily readable navigation bar to proceed to the user preference page. Underneath, there is a callout image with a heading. The contact page gives the contact information such as an address, phone number and email address. When you scroll down, there is a contact form if the user has queries; they can communicate with the restaurant team. A footer with logo, call out button of reserve a meal and download menu and social networks links. 
+    
+    Upon entering the contact page, the users are welcomed with a clear and readily readable navigation bar to proceed to the user preference page. Underneath, there is a callout image with a heading. The contact page gives the contact information such as an address, phone number and email address. When you scroll down, there is a contact form if the user has queries; they can communicate with the restaurant team. A footer with logo, call out button of reserve a meal and download menu and social networks links. 
+
+[Contactpage-Wireframe](assets/images/contactpage-wireframe.png)
