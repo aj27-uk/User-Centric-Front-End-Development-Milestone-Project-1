@@ -3,7 +3,7 @@
 
 View the live website.  [The Kitchen](https://aj27-uk.github.io/User-Centric-Front-End-Development-Milestone-Project-1/home.html)
 <hr>
-The project is based on a static front-end using HTML, CSS and Bootstrap technologies and implemented based on user experience design, accessibility and responsiveness. I have designed this website on a bespoke basis for a restaurant called "The Kitchen" situated in Kent. it is a virtual restaurant where people can reserve their meal and deliver it to their doorstep. Their service will promote in this unprecedented time and stand unique. 
+The project is based on a static front-end using HTML, CSS and Bootstrap technologies and implemented based on user experience design, accessibility and responsiveness. I have designed this website on a bespoke basis for a restaurant named "The Kitchen" situated in Kent. it is a virtual kitchen where people can reserve their meal and deliver it to their doorstep. Their service will promote in this unprecedented time and stand unique. 
 <hr>
 
 <img src="assets/images/responsive .png" alt="responsive design image">
@@ -35,7 +35,7 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 </tr>
 <tr>
 <td>6</td>
-<td>Technolgies</td>
+<td>Technologies</td>
 </tr>
 <tr>
 <td>7</td>
@@ -135,7 +135,7 @@ The menu page has been divided into three pages as
 
    Upon entering the menu page, the page has been designed with a drop-down menu system with the other three pages: "The Kitchen's menu, Reserve a meal, Download our menu". Different contents separate each page. When entering the menu page of The Kitchen, users are welcomed with a clear and easy-to-read navigation bar to go to the page of their choice. Like the other pages,  a callout image is titled "Menu". As the user scrolls down, potential customers can view a more in-depth description of the current restaurant menu and the prices. Adopting a translucent strategy in this regard will increase customer faithfulness. The footer area contains contact details and other helpful links to learn more about the restaurant when scrolling down. 
 
-   [Menupage-Wireframe](assets/images/)
+   [Menupage-Wireframe](assets/images/menupage-wireframe.png)
    
    When entering the reserve a meal page, users are held with a clear and easy-to-read navigation bar to go to the page of their preference. Like the other pages,  a callout image is titled with some text. As the user scrolls down, there is a reservation form for filling to book a meal. The footer area contains contact details and other helpful links. The third page of download our menu allows users to download the menu on their device to spend less time on the internet to find their meal.
 
@@ -155,21 +155,76 @@ The menu page has been divided into three pages as
 
 <hr>
 <h2 align="center">Design</h2>
+<hr>
 
 * Colour Scheme
 
-The sensory strategy section of a website is the design of how users see and experience it. I wanted the design to be clean and easy for everyone to access; the colours should not be too dark and give it purity, joy, and creativity. Most of the places I use here are two colours, black and white, which are often associated with luxury and elite trademarks. It is not only used for elegance, sophistication and style. These colours like to communicate with people and target audiences, aiming to gain more traction.
-Also, throughout the project, I have used bootstrap colour utilities that support me with styling links and buttons with hover states. I make sure all the contents of the text are visible.
+  The sensory strategy section of a website is the design of how users see and experience it. I wanted the design to be clean and easy for everyone to access; the colours should not be too dark and give it purity, joy, and creativity. Most of the places I use here are two colours, black and white, which are often associated with luxury and elite trademarks. It is not only used for elegance, sophistication and style. These colours like to communicate with people and target audiences, aiming to gain more traction.
+  Also, throughout the project, I have used bootstrap colour utilities that support me with styling links and buttons with hover states. I make sure all the contents of the text are visible.
 
 * Typography
 
-Throughout the web, I have used the Cormorant Garamond font family. If the font is not adequately imported to the site, Serif is used as the fallback font for some reason. 
+  Throughout the web, I have used the Cormorant Garamond font family. If the font is not adequately imported to the site, Serif is used as the fallback font for some reason. 
 
 * Imagery
 
-I have used essential images throughout the site to catch the user's attention. Some are created on Canvas, and some are downloaded from Pexels.
+  I have used essential images throughout the site to catch the user's attention. Some are created on Canvas, and some are downloaded from Pexels.
 
 * Styling Components
 
-Before starting the development, I listed some styling ideas that encouraged me to simplify things, and I thought they would be helpful for the website. So the features are controlled and straightforward. Therefore, throughout the site, all content was made responsive. It was very successful; I used bootstrap elements such as navigation navbar, dropdown, jumbotron, carousel, cards, forms, buttons, and alerts elsewhere throughout the page.
+  Before starting the development, I listed some styling ideas that encouraged me to simplify things, and I thought they would be helpful for the website. So the features are controlled and straightforward. Therefore, throughout the site, all content was made responsive. It was very successful; I used bootstrap elements such as navbar, dropdown, jumbotron, carousel, cards, forms, buttons, and alerts elsewhere throughout the page.
 <hr>
+<h2 align="center">Technologies</h2>
+<hr>
+
+Throughout the milestone project, I used several techniques that led me to success.
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+HTML provides the structure of a web page. HTML contains elements that tell the browser how to display content.
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+CSS is the language employed in the style of HTML documents.CSS defines how HTML elements should be displayed on the screen.
+
+- [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+
+Bootstrap is responsive and the world's most widespread framework for building mobile-first sites. For this project, I have used the v4.6 version. For developing my site more responsive, I have used several bootstrap components.
+  
+- [GitHub](https://github.com/)
+
+I used an open-source code hosting platform named GitHub. I created a repository for developing my site. It helps me store and manage my code and track and control changes to my codes. 
+
+- [Gitpod](https://gitpod.io/)
+
+Gitpod is an online Integrated Development environment that can be launched from any GitHub page that will help me manage the rebuild projects or create a new project based on the GitHub repository. Once I code, I will commit to GitHub.
+
+- [Google Font](https://fonts.google.com/)
+
+To make my website more beautiful, I added Google Fonts, which are released under open source licenses. I added the font family name Cormorant Garamond in a CSS style sheet for applying the font. 
+
+- [FontAwesome](https://fontawesome.com/v4.7/)
+
+Font Awesome is a scalable vector icon built using the power of CSS. Through this pictorial language, I have described web-related activities in many places.
+
+- [Balsamiq](https://balsamiq.com/)
+
+This is a wireframe tool. This creates the structure of the website before coding.
+
+- [AmIResponsive?](http://ami.responsivedesign.is)
+
+This tool displays how the built-in website responds across different browsers. I have used this to show in my README overview and added a screenshot.
+
+- [Canva](https://www.canva.com/)
+
+I used to customize some logo and images for my website.
+
+- [Pexels](https://www.pexels.com/)
+
+I used royalty-free pictures for my projects.
+
+- [W3CMarkupValidationService](https://validator.w3.org/)
+
+It is a free service by W3C that helps check the validity of Web documents.
+
+<hr>
+
