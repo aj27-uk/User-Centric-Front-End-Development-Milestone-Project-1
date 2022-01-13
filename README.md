@@ -3,13 +3,12 @@
 
 View the live website.  [The Kitchen](https://aj27-uk.github.io/User-Centric-Front-End-Development-Milestone-Project-1/home.html)
 <hr>
-The project is based on a static front-end using HTML, CSS and Bootstrap technologies and implemented based on user experience design, accessibility and responsiveness. I have designed this website on a bespoke basis for a restaurant named "The Kitchen" situated in Kent. it is a virtual kitchen where people can reserve their meal and deliver it to their doorstep. Their service will promote in this unprecedented time and stand unique. 
+The project is based on a static front-end using HTML, CSS and Bootstrap technologies and implemented based on user experience design, accessibility and responsiveness. I have designed this website on a bespoke basis for a kitchen named "The Kitchen" situated in Kent. it is a virtual kitchen where people can reserve their meal and deliver it to their doorstep. Their service will promote in this unprecedented time and stand unique. 
 <hr>
 
 <img src="assets/images/responsive .png" alt="responsive design image">
 
 <hr>
-
 
 <h2 align="center">Contents</h2>
 <table align="center">
@@ -230,38 +229,96 @@ It is a free service by W3C that helps check the validity of Web documents.
 <h2 align="center">Testing</h2>
 <hr>
 
+### W3C Validator
+
 I validated HTML and CSS using the W3 validation service. The results are as follows:
 
-[Homepage](assets/Testing/home.png)
+- [Homepage](assets/Testing/home.png)
 
-[AboutUspage](assets/Testing/aboutus.png)
+- [AboutUspage](assets/Testing/aboutus.png)
 
-[Menupage](assets/Testing/menupage.png)
+- [Menupage](assets/Testing/menupage.png)
 
 On the menu page, there was a warning; I changed the heading size from h1 to h2 and erased that warning. The result is on the below link.
 
-[Menupage](assets/Testing/menupage2.png)
+- [Menupage](assets/Testing/menupage2.png)
 
-[ReserveMealpage](assets/Testing/reservemeal.png)
+- [ReserveMealpage](assets/Testing/reservemeal.png)
 
-[MyAccountpage](assets/Testing/myaccount.png)
+- [MyAccountpage](assets/Testing/myaccount.png)
 
-[Contactpage](assets/Testing/contact.png)
+- [Contactpage](assets/Testing/contact.png)
 
-[CSS-Stylesheet](assets/Testing/cssstylesheet.png)
+- [CSS-Stylesheet](assets/Testing/cssstylesheet.png)
+
+### Lighthouse in Chrome DevTools
+
+To find the quality of web pages, I used an open-source called [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) in Chrome DevTools. It has checked for performance, progressive Web apps, best practices, accessibility and SEO. The generated Lighthouse result on each page is shown below:
+
+- [Homepage](assets/Testing/home-lighthouse.png)
+
+- [AboutUspage](assets/Testing/aboutus-lighthouse.png)
+
+- [Menupage](assets/Testing/menupage-lighthouse.png)
+
+- [ReserveMealpage](assets/Testing/reservemeal-lighthouse.png)
+
+- [MyAcountpage](assets/Testing/myaccount-lighthouse.png)
+
+- [Contactpage](assets/Testing/contact-lighthouse.png)
+
+### Responsive
+
+* To check the responsiveness I used Chrome Developer Tools. There are numerous lists of emulated devices. 
+* Personally I checked on my home devices such as iMac, iphone 12 mini, Accer Chromebook and iphone 6S.
+
+### Issues to overcome
+
+For the better performance of the site, I have to set background and foreground colours in a correct contrast ratio. Some of the texts in the footer I coded as text-muted, I have to set for improving the legibility of the content. The image sizes have to be appropriately sized so I can improve the loading time. 
 
 <hr>
 <h2 align="center">Deployment</h2>
 <hr>
 
+### Deployed my project to GitHub
+
+The site is hosted using GitHub pages, deployed straight from the main branch of GitHub. The deployed site will modernise automatically as new commits are pushed to the main branch. The below steps explains how I deployed my Github pages.
+
+- First got to [GitHub](https://github.com/)
+- Sign in with your username and password
+- Click on your repositories 
+- Find your selected repository from the repositories
+- Click on settings on the tab
+- On settings go to Pages
+- In GitHub pages select the source to main branch and save it. 
+
+Once saved the site will publish and the new URL for the deployed site will show us. 
+
+For additional information [GitHub-Pages](https://pages.github.com/)
+
+### Create a local clone of my project
+
+- Under the repository click on code button
+- In the Clone copy HTTP URL
+- Move the current working directory to the location you want to create.
+- Type git clone and paste the HTTP URL and press enter
+
+The local clone will be ready.
+
+
+
 <hr>
 <h2 align="center">Credits</h2>
 
-* My husband is a chef by profession, and he was very supportive in preparing the menu. Many of his suggestions helped me to build this site.
+* My husband is a chef by profession, and he was very supportive in preparing the menu. Many of his suggestions helped me to build this site. 
 
 * I used [Bootstrap](https://getbootstrap.com/docs/4.6/components/) and [W3Schools](https://www.w3schools.com/bootstrap4/default.asp) sites to help me throughout my coding journey. Moreover, I guided all learning modules from the [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/).
 
 * The photos and images were used from Pexels and designed by myself through Cava. 
+
+* I used the [W3Cvalidator](https://validator.w3.org/) to check if my website meets the code formatting criteria.
+
+* To find the quality of web pages, I used an open-source called [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) in Chrome DevTools.
 <hr>
 
 <hr>
@@ -278,4 +335,3 @@ On the menu page, there was a warning; I changed the heading size from h1 to h2 
 <hr>
 
 
-<hr>
