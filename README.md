@@ -14,42 +14,46 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 <table align="center">
 <tr>
 <td>1</td>
+<td>User Experience</td>
+</tr>
+<tr>
+<td></td>
 <td>User Stories</td>
 </tr>
 <tr>
-<td>2</td>
+<td></td>
 <td>Sitemap</td>
 </tr>
 <tr>
-<td>3</td>
+<td></td>
 <td>Wireframe</td>
 </tr>
 <tr>
-<td>4</td>
+<td></td>
 <td>Design</td>
 </tr>
 <tr>
-<td>5</td>
+<td>2</td>
 <td>Features</td>
 </tr>
 <tr>
-<td>6</td>
+<td>3</td>
 <td>Technologies</td>
 </tr>
 <tr>
-<td>7</td>
+<td>4</td>
 <td>Testing</td>
 </tr>
 <tr>
-<td>8</td>
+<td>5</td>
 <td>Deployment</td>
 </tr>
 <tr>
-<td>9</td>
+<td>6</td>
 <td>Credits</td>
 </tr>
 <tr>
-<td>10</td>
+<td>7</td>
 <td>Acknowledgements</td>
 </tr>
 </table>
@@ -86,21 +90,14 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 * As an owner, I want the new customer needs to communicate or reserve a meal by signing up section with our website.
 * As an owner, I want the existing customer need to communicate or reserve a meal by signing in our website. 
 * As an owner, I want my customers to navigate our social networks so that they can get new updates from our service. 
----
-<h3>Existing user</h3>
 
-* As an existing user, I want to navigate each page and check to see if there are any new updates.
-* As an existing user, I want to sign in and reserve a meal.
-* As an existing user, I can look at their menu to choose a meal.
-* As an existing user, I want to contact their team if I have any queries.
-* As an existing user, I want to navigate their social networks in another tab so that I can get their updates.
 <hr>
 <h2 align="center">Sitemap</h2>
 <hr>
 At this first stage, I think about what information, pages, features to determine the business goals and user needs and align all the features with the strategy. I wanted a simple design so that the potential customers would not feel overwhelmed by the pages. 
 The Kitchen website is a static front end project written in HTML and CSS programming language with main five pages. The top five pages such as:
 
-* HOME
+* [HOME](<home>)
 * ABOUT US
 * MENU
 * MY ACCOUNT 
