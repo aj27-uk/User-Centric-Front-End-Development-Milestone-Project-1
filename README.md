@@ -227,4 +227,55 @@ I used royalty-free pictures for my projects.
 It is a free service by W3C that helps check the validity of Web documents.
 
 <hr>
+<h2 align="center">Testing</h2>
+<hr>
 
+I validated HTML and CSS using the W3 validation service. The results are as follows:
+
+[Homepage](assets/Testing/home.png)
+
+[AboutUspage](assets/Testing/aboutus.png)
+
+[Menupage](assets/Testing/menupage.png)
+
+On the menu page, there was a warning; I changed the heading size from h1 to h2 and erased that warning. The result is on the below link.
+
+[Menupage](assets/Testing/menupage2.png)
+
+[ReserveMealpage](assets/Testing/reservemeal.png)
+
+[MyAccountpage](assets/Testing/myaccount.png)
+
+[Contactpage](assets/Testing/contact.png)
+
+[CSS-Stylesheet](assets/Testing/cssstylesheet.png)
+
+<hr>
+<h2 align="center">Deployment</h2>
+<hr>
+
+<hr>
+<h2 align="center">Credits</h2>
+
+* My husband is a chef by profession, and he was very supportive in preparing the menu. Many of his suggestions helped me to build this site.
+
+* I used [Bootstrap](https://getbootstrap.com/docs/4.6/components/) and [W3Schools](https://www.w3schools.com/bootstrap4/default.asp) sites to help me throughout my coding journey. Moreover, I guided all learning modules from the [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/).
+
+* The photos and images were used from Pexels and designed by myself through Cava. 
+<hr>
+
+<hr>
+<h2 align="center">Acknowledgment</h2>
+<hr>
+
+- I want to thank my loving husband and children, who cooperated with me day and night as I had the opportunity to build this project in a short period.
+
+- Thanks to my mentor Mr Precious Ijege for guiding me from the beginning of my project.
+
+- I would also like to thank all the Student Care team and Tutor Assistance team at Code Institute.
+
+- Thanks to Professor Philip Morris at Harlow College for his support and all the help.
+<hr>
+
+
+<hr>
