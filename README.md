@@ -62,9 +62,9 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 <hr>
 <h3>First time User</h3>
 
-* As a first-time user, I want to comprehend the website's main purpose and explore more about the restaurant. 
+* As a first-time user, I want to comprehend the website's main purpose and explore more about the kitchen. 
 * As a first-time user, I want to be able to navigate throughout the site to find content. 
-* As a first-time user, I want to look overview of the restaurant to understand what other users comment on and if the restaurant is suitable for further business. 
+* As a first-time user, I want to look overview of the kichen to understand what other users comment on and if the kitchen is suitable for further business. 
 * As a first-time user, I want to see a menu to choose a proper meal, and if I need it, I want to download their menu.
 * As a first time user, I want to know how to reserve a meal. 
 * As a first-time user, I can ask any questions through a contact form if I have any queries.
@@ -97,7 +97,7 @@ The project is based on a static front-end using HTML, CSS and Bootstrap technol
 At this first stage, I think about what information, pages, features to determine the business goals and user needs and align all the features with the strategy. I wanted a simple design so that the potential customers would not feel overwhelmed by the pages. 
 The Kitchen website is a static front end project written in HTML and CSS programming language with main five pages. The top five pages such as:
 
-* [HOME](<home>)
+* HOME
 * ABOUT US
 * MENU
 * MY ACCOUNT 
@@ -145,7 +145,7 @@ The menu page has been divided into three pages as
 
 * CONTACT
     
-    Upon entering the contact page, the users are welcomed with a clear and readily readable navigation bar to proceed to the user preference page. Underneath, there is a callout image with a heading. The contact page gives the contact information such as an address, phone number and email address. When you scroll down, there is a contact form if the user has queries; they can communicate with the restaurant team. A footer with logo, call out button of reserve a meal and download menu and social networks links. 
+    Upon entering the contact page, the users are welcomed with a clear and readily readable navigation bar to proceed to the user preference page. Underneath, there is a callout image with a heading. The contact page gives the contact information such as an address, phone number and email address. When you scroll down, there is a contact form if the user has queries; they can communicate with the kitchen team. A footer with logo, call out button of reserve a meal and download menu and social networks links. 
 
     [Contactpage-Wireframe](assets/images/contactpage-wireframe.png)
 
@@ -169,6 +169,54 @@ The menu page has been divided into three pages as
 * Styling Components
 
   Before starting the development, I listed some styling ideas that encouraged me to simplify things, and I thought they would be helpful for the website. So the features are controlled and straightforward. Therefore, throughout the site, all content was made responsive. It was very successful; I used bootstrap elements such as navbar, dropdown, jumbotron, carousel, cards, forms, buttons, and alerts elsewhere throughout the page.
+
+<hr>
+<h2 align="center">Features</h2>
+<hr>
+
+The Kitchen website is set up for easy access. The website has many features that the user may be familiar with it. The overall experience of the website encourages the user to explore further. Features include a navigation bar, reserve a meal, sign in and sign up forms, subscribe form, a contact form, and a downloadable menu. All section content is fully responsive. I designed The Kitchen's website with five pages: Home, About Us, Menu, My Account and Contact. A navigation bar at the top of each page can be stretched or shortened depending on the screen size. Navigation links will be hidden on smaller screens, and pages will be revealed when a button is clicked instead. Navbar wrap with content logo, links and button. One of the pages has a drop-down menu containing the other three pages. To give extra attention to the heading on each page, I have used a callout container with the help of the Bootstrap Jumbotron component on each page under the navigation bar.
+
+[Navbar with callout container](assets/images/navbar_calloutcontainer.png)
+
+[Collapsible navbar with callout container](assets/images/collapisablenavbar.png)
+
+The Kitchen website pages has a footer design with bootstrap card elements, making the page more stylish. The card contains card titles and subtitles describing contact information, working hours and other essential information. I used the Bootstrap JavaScript model plugin to add custom content to receive news and offers. Two buttons are set up to connect the user with the menu and menu download. I have provided all the social media links to click the user to know the kitchen updates.
+
+[Footer](assets/images/Footer.png)
+
+* Home Page
+The first section is set with grid components on the page, in the two columns, separated with thumbnail and paragraph elements. Second Section is specified with a slideshow of the dishes. I used here Bootstrap carousel component to get a responsive and better style.
+
+* About Us page
+
+About us page, mainly designed with an overview of The Kitchen, testimonials and opening times. The first section about The Kitchen I created through a Bootstrap card component. Secondly, the section added with testimonials was arranged in a container class with left and right alignment style. Thirdly the opening times I designed with the help of a responsive table component. 
+
+* Menu page
+
+The Menu page is divided into three pages.
+
+- The Kitchen's Menu page
+
+The page is designed with a Bootstrap card, so I provided the menu with a flexible and extensible content container to make the menu more descriptive. Additional information is included with the help of the Bootstrap alert component. 
+
+- Reserve a meal
+
+I used a Bootstrap form component for creating a reservation. The users have to provide details of the reservation and agree to the terms and conditions of the Kitchen. 
+
+- Download our Menu
+
+I have arranged a page to download a pdf version of the menu for customer convenience. 
+
+*I have arranged two buttons on each website page on the footer section: menu and reserve buttons; from them, the user can download the menu and reserve their meal.* 
+
+* My Account Page
+
+This page has two sections for new and existing customers. The user already has an account; they can sign in with their email and password. It is made using the bootstrap component form. Newcomers do not have an account; they must sign up with the details requested by the team, such as title, first name, last name, enter your email, confirm your email, and create a password. It is also made with the help of a bootstrap form component.
+
+* Contact Us page
+
+This page is first set with a bootstrap card component with address, phone and email. Secondly, a reach out form has been set for the customers for any query. The Footer part has been designed with a card component with an image, menu and reserve button and social media links. 
+
 <hr>
 <h2 align="center">Technologies</h2>
 <hr>
@@ -264,9 +312,109 @@ To find the quality of web pages, I used an open-source called [Lighthouse](http
 
 - [Contactpage](assets/Testing/contact-lighthouse.png)
 
+### User Stories Testing
+
+* As a first-time user, I want to comprehend the website's main purpose and explore more about the kitchen. 
+
+  I have provided the Kitchen's logo with navigation links on the navigation bar to explore more in it. 
+
+* As a first-time user, I want to be able to navigate throughout the site to find content. 
+
+  For that, I have arranged a navigation bar fixed at the top of the page with navigation links that will navigate to all other website pages and give the user the supportive details of the website. 
+
+* As a first-time user, I want to look overview of the kitchen to understand what other users comment on and if the kitchen is suitable for further business. 
+
+  That has been arranged on the about us page—an overview of the Kitchen and other customers' testimonials. Moreover, I have given details about the opening times of the Kitchen. 
+
+* As a first-time user, I want to see a menu to choose a proper meal, and if I need it, I want to download their menu.
+
+  I have provided all menu items on one page (The Kitchen's Menu page) in a separate category to access the menu without any hassle. Meanwhile, I have arranged a downloadable version of the menu on a separate page (Download our menu page) so users can download easily and access it at their pace.
+
+* As a first time user, I want to know how to reserve a meal. 
+
+  On the reserve a meal page, users can reserve their meal through a form. If the user needs any help on their reservation, they can contact their team by the link provided. 
+
+* As a first-time user, I can ask any questions through a contact form if I have any queries.
+
+  Users can ask any query through a form on the Contact us page.
+
+* As a first time user, I can sign up to make an account with the team. 
+
+  On the My Account page, users can sign up to make an account with the team through a form. 
+
+* As a first time user, I also want to navigate their social networks in another tab to determine how trusted are they and know more about them from their page updates.
+
+  On the footer, I have provided a link for all social networks so when the user clicks on those, it will navigate to a separate page, and they can explore each page.
+
+* As a first time user, I also want to sign up for news and offers so that I can get their new updates by email.
+
+  For that, I have provided a button called 'Stay in the loop' on the footer. So user can easily add their email address. 
+
+
+* As an owner, I want to make sure all relevant details are updated on my website to expose the business and the people who know about the business locally.
+
+    For that, I updated all details correctly. 
+
+* As an owner, I want to inspire when the customer enters the page.
+
+  I gave a good style so the user would not get bored on the page. 
+
+* As an owner, I want the website to be attractive and intuitive to potential customers and easy to navigate at any cost.
+
+  Users can easily navigate to each page by the link provided on the page. 
+
+* As an owner, I want the concept to be easy to use and clear.
+ 
+  I gave all cleared details to access them without any hassle easily.
+
+* As an owner, I want the website to work on all devices.
+
+  I used Bootstrap v4.6, so I tried to be responsive on all devices.
+
+* As an owner, I want to update our menu and other services so that I can attract new or existing customers.
+* As an owner, I want a downloadable menu for the customer to spend less time on the internet to find their meal.
+ 
+  On the menu page I provided The Kitchen's menu page and a download our menu page, the user can easily look at The Kitchen's menu and download the Kitchen's menu. Moreover on the footer section I have arranged two button named Menu and Reserve button, when user clicks they can find Menu and reserve their meal. 
+
+* As an owner, I want to make sure there is a reservation for a meal online to avoid unnecessary distractions during busy times.
+
+    On the reserve a meal page, I have provided a form to reserve their meal easily.
+
+* As an owner, I want the customers to need contact details to connect with the team.
+
+  On the footer and the contact us page, I have provided the contact details of the Kitchen's so users can easily communicate.
+
+* As an owner, I want to sign up to the news and offers so that I can email major updates to the new or existing customers.
+
+  For that, I have provided a button called 'Stay in the loop' on the footer. So user can easily add their email address. 
+
+* As an owner, I want to specify the restaurant's opening time.
+    
+  On the footer section of each page and about us page, I have provided the details of their opening times. So that user can easily find any page of this website. 
+
+* As an owner, I want the customers can communicate from the site directly to the restaurant team by their email.
+
+  Users can communicate through the email address provided on the footer and the contact us page. When the user clicks on the email link, it will direct them to their email account. 
+
+* As an owner, I want the customers to need to get a contact form if they have any queries.
+
+  The user can contact the Kitchen's team with their query through the form provided on the Contact us page. 
+
+* As an owner, I want the new customer needs to communicate or reserve a meal by signing up section with our website.
+  
+  A new customer can sign up on My Account page to quickly reserve a meal on the reserve a meal page. 
+* As an owner, I want the existing customer need to communicate or reserve a meal by signing in our website.
+
+  An existing user can sign in on My Account page and quickly reserve a meal on the reserve a meal page. 
+
+* As an owner, I want my customers to navigate our social networks to get new updates from our service.
+
+  I have provided all social media links on the footer to access and navigate them while clicking on the link quickly. 
+
 ### Responsive
 
 * To check the responsiveness I used Chrome Developer Tools. There are numerous lists of emulated devices. 
+* To chek the responsiveness I used the following broswers Microsft Edge, Safari and Google Chrome browsers, and confirmed working properly. 
 * Personally I checked on my home devices such as iMac, iphone 12 mini, Accer Chromebook and iphone 6S.
 
 ### Issues to overcome
@@ -301,23 +449,29 @@ For additional information [GitHub-Pages](https://pages.github.com/)
 - Type git clone and paste the HTTP URL and press enter
 
 The local clone will be ready.
-
-
-
 <hr>
 <h2 align="center">Credits</h2>
-
-* My husband is a chef by profession, and he was very supportive in preparing the menu. Many of his suggestions helped me to build this site. 
-
-* I used [Bootstrap](https://getbootstrap.com/docs/4.6/components/) and [W3Schools](https://www.w3schools.com/bootstrap4/default.asp) sites to help me throughout my coding journey. Moreover, I guided all learning modules from the [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/).
-
-* The photos and images were used from Pexels and designed by myself through Cava. 
-
-* I used the [W3Cvalidator](https://validator.w3.org/) to check if my website meets the code formatting criteria.
-
-* To find the quality of web pages, I used an open-source called [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) in Chrome DevTools.
 <hr>
 
+### Contents
+
+My husband is a chef by profession, and he was very supportive in preparing the menu. Many of his suggestions helped me to build this site. All contents of this site made by myself. 
+
+### Coding
+
+I used [Bootstrap](https://getbootstrap.com/docs/4.6/components/) and [W3Schools](https://www.w3schools.com/bootstrap4/default.asp) sites to help me throughout my coding journey. Moreover, I guided all learning modules from the [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/).
+
+### Media
+
+The photos and images were used from Pexels and designed by myself through Cava. 
+
+### Testing
+
+I used the [W3Cvalidator](https://validator.w3.org/) to check if my website meets the code formatting criteria.
+
+### Quality of web page
+
+To find the quality of web pages, I used an open-source called [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) in Chrome DevTools.
 <hr>
 <h2 align="center">Acknowledgment</h2>
 <hr>
